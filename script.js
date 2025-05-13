@@ -1,25 +1,25 @@
-// const func = async () => {
-//     return `hyyyyyy`
-// }
+const func = async () => {
+    return `hyyyyyy`
+}
 
-// console.log(func());
+console.log(func());
 
-// const func1 = async () => {
-//     return     Promise.resolve (`hyyyyyy`)
-// }
+const func1 = async () => {
+    return     Promise.resolve (`hyyyyyy`)
+}
 
-// console.log(func1());
+console.log(func1());
 
 
-// const randomUser = async () => {
-//     let fetchh =  await fetch (`https://randomuser.me/api/`)
-//     let rawData = await fetchh.json()
-//     console.log(rawData);
-//     console.log(`my Title is ${rawData.results[0].name.title} And My First Name ${rawData.results[0].name.first}  And My last Name ${rawData.results[0].name.last} And My Geender `);
+const randomUser = async () => {
+    let fetchh =  await fetch (`https://randomuser.me/api/`)
+    let rawData = await fetchh.json()
+    console.log(rawData);
+    console.log(`my Title is ${rawData.results[0].name.title} And My First Name ${rawData.results[0].name.first}  And My last Name ${rawData.results[0].name.last} And My Geender `);
     
     
-// }
-// randomUser()
+}
+randomUser()
 
 
 const randomQuote = [
